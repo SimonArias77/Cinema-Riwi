@@ -43,14 +43,34 @@
 
 
 
-
     <main>
         <section id="estrenos"></section>
         <section id="Cartelera"></section>
-        <section id="contacto"></section>
-    </main>
 
-    <footer></footer>
+        <section id="contacto" class="section">
+            <form class="section__form form" action="">
+                <h2 class="form__h2">Contacto</h2><br>
+                <p class="form__p">¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p><br>
+
+                <div class="form__div div">
+                    <input class="div__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div><br>
+
+                <div class="form__div div">
+                    <input class="div__input" type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                </div><br>
+
+                <div class="form__div div">
+                    <textarea class="div__textarea" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div><br>
+                <button class="form__button">Enviar</button>
+            </form>
+        </section>
+    </main>
+<br>
+    <footer class="body__footer">
+        <i class="bi bi-c-circle"></i> 2024 Riwi Cine. Todos los derechos reservados
+    </footer>
 
 
 </body>

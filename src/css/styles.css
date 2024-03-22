@@ -16,6 +16,8 @@
     /* font-family: "Yuji Mai", serif; */
 }
 
+        /* Header*/
+
 a {
     text-decoration: none;
 }
@@ -34,3 +36,18 @@ a {
 .nav a {
     color: var(--color-text);
 }
+
+            /*Main*/
+.section__form{text-align: center;
+
+}
+
+.div__input{
+    width: 600px;
+}
+
+.div__textarea{width: 600px;}
+
+.form__button{width: 600px; color: #fff; background-color: #6B5CFF;}
+
+.body__footer{text-align: center; height: 60px; background-color: #181E4B; color: #fff;}

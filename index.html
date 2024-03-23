@@ -28,13 +28,13 @@
 
         <nav class="nav">
 
-            <a href=""><i class="bi bi-camera-reels-fill"></i>
+            <a href="#estrenos"><i class="bi bi-camera-reels-fill"></i>
                 <span>estrenos</span></a>
 
-            <a href=""><i class="bi bi-film"></i>
+            <a href="#cartelera"><i class="bi bi-film"></i>
                 <span>cartelera</span></a>
 
-            <a href=""><i class="bi bi-telephone-fill"></i>
+            <a href="#contacto"><i class="bi bi-telephone-fill"></i>
                 <span>contacto</span></a>
 
         </nav>
@@ -44,8 +44,74 @@
 
 
     <main>
-        <section id="estrenos"></section>
-        <section id="Cartelera"></section>
+
+        <section class="estrenos" id="estrenos">
+            <article class="estrenos__article">
+                <img src="./public/img/CABRINI.webp" alt="Película Cabrini" class="estrenos__img">
+            </article>
+            <article class="estrenos__article">
+                <img src="./public/img/DUNA.webp" alt="Película Duna" class="estrenos__img">
+            </article>
+            <article class="estrenos__article">
+                <img src="./public/img/LUCA.webp" alt="Pelicula Luca" class="estrenos__img">
+            </article>
+            <article class="estrenos__article">
+                <img src="./public/img/VERMINES.webp" alt="Pelicula Vermines" class="estrenos__img">
+            </article>
+        </section>
+
+        <section class="section" id="cartelera">
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/CABRINI.webp" alt="">
+                <h2>CABRINI</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/DUNA.webp" alt="">
+                <h2>DUNE</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/LUCA.webp" alt="">
+                <h2>LUCA</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/VERMINES.webp" alt="">
+                <h2>VERMIN</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/CABRINI.webp" alt="">
+                <h2>CABRINI</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+            <article class="section__article article">
+                <img class="article__img" src="./public/img/VERMINES.webp" alt="">
+                <h2>VERMIN</h2>
+                <p class="article__p">Una mujer pobre y audaz se convirtió en una de las grandes emprendedoras del siglo
+                    XIX: a través de su fuerza de voluntad, coraje y habilidad comercial, superó el sexismo y la
+                    intolerancia violenta contra los italianos en la Nueva York del siglo XIX. 145 min.</p>
+                <button> <a href="https://www.pse.com.co/pse1" target="_blank">Comprar Boleto</a></button>
+            </article>
+        </section>
+
+
 
         <section id="contacto" class="section">
             <form class="section__form form" action="">
@@ -57,17 +123,20 @@
                 </div><br>
 
                 <div class="form__div div">
-                    <input class="div__input" type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                    <input class="div__input" type="email" name="email" id="email" placeholder="Correo electrónico"
+                        required>
                 </div><br>
 
                 <div class="form__div div">
-                    <textarea class="div__textarea" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <textarea class="div__textarea" name="mensaje" id="mensaje" cols="30" rows="10"
+                        placeholder="Mensaje"></textarea>
                 </div><br>
-                <button class="form__button">Enviar</button>
+                <button class="form__button"> <a href="https://www.cinecolombia.com/medellin"
+                        target="_blank">Enviar</a></button>
             </form>
         </section>
     </main>
-<br>
+    <br>
     <footer class="body__footer">
         <i class="bi bi-c-circle"></i> 2024 Riwi Cine. Todos los derechos reservados
     </footer>

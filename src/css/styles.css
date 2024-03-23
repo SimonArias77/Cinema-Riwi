@@ -1,6 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
 
+/*SON LAS VARIABLES*/
 :root {
     --azul-oscuro: #181E4B;
     --color-text: #fff;
@@ -8,6 +9,7 @@
 
 }
 
+/*SE USA PARA RESETEAR EL ESTILO DEL NAVEGADOR*/
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +18,7 @@
     /* font-family: "Yuji Mai", serif; */
 }
 
-        /* Header*/
+/* HEADER*/
 
 a {
     text-decoration: none;
@@ -25,6 +27,7 @@ a {
 
 
 .header {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,17 +40,89 @@ a {
     color: var(--color-text);
 }
 
-            /*Main*/
-.section__form{text-align: center;
+/*ESTRENOS*/
+
+/*CONTENEDOR PRINCIPAL ESTRENOS*/
+
+.estrenos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.estrenos__article {
+    width: 45%;
+    margin: 10px;
+}
+
+.estrenos__img {
+    width: 100%;
+    height: 100%;
+}
+
+/* CARTELERA*/
+
+/*CONTENEDOR PRINCIPAL CARTELERA*/
+
+.section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+/*ARTICLE IMG*/
+
+.section__article {
+    text-align: center;
+    justify-content: center;
+    width: 33.3%;
+}
+
+/*IMG*/
+
+.article__img {
+    width: 80%;
+    height: 80%;
+    margin: 15px 15px 0px 15px;
+}
+
+/*PARRAFO DESCRIPCIÓN PELÍCULA*/
+
+.article__p {
+    padding: 15px;
+    margin-left: 45px;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+/*FORMULARIO*/
+
+.section__form {
+    text-align: center;
 
 }
 
-.div__input{
+.div__input {
     width: 600px;
 }
 
-.div__textarea{width: 600px;}
+.div__textarea {
+    width: 600px;
+}
 
-.form__button{width: 600px; color: #fff; background-color: #6B5CFF;}
+.form__button {
+    width: 600px;
+    color: #fff;
+    background-color: #6B5CFF;
+}
 
-.body__footer{text-align: center; height: 60px; background-color: #181E4B; color: #fff;}
+/*FOOTER*/
+
+.body__footer {
+    text-align: center;
+    height: 60px;
+    background-color: #181E4B;
+    color: #fff;
+}
